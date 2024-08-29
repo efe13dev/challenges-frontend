@@ -11,14 +11,14 @@ Este repositorio contiene una colección de ejemplos de **maquetación web**, di
 ├── challenges-frontend/
 │   ├── ejemplo1/
 │   │   ├── index.html
-│   │   ├── styles.css
-│   │   └── README.md
+│   │   └── styles.css
 │   ├── ejemplo2/
 │   │   ├── index.html
-│   │   ├── styles.css
-│   │   └── README.md
+│   │   └──styles.css
 │   └── ...
 └──README.md
+
+
 ```
 
 ### Abre el archivo index.html en tu navegador para ver el ejemplo.
