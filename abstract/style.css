@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a:visited {
+  color: #ffffff;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header .links {
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 8rem;
+}
+
+header .links .nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+header .links a {
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+
+header .links .buttons > button {
+  color: #fff;
+  padding: 0.5rem 1.25rem;
+  border-radius: 8px;
+  font-size: 1.5rem;
+}
+
+header .links .buttons :first-child {
+  background-color: #222;
+  border: 1px solid #fff;
+}
+
+header .links .buttons :last-child {
+  background-color: #4c5fd5;
+  border: 1px solid #000000;
+  margin-left: 1rem;
+}
+
+header .input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #dadbf1;
+}
+
+header .input-container > p {
+  font-size: 5rem;
+  padding-top: 5rem;
+}
+
+header .input-container > input {
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+  width: 35%;
+  padding: 1.25rem;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  font-size: 1.25rem;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  height: 20rem;
+  background-color: #000000;
+}
