@@ -76,7 +76,30 @@ header .input-container > input {
 }
 
 main {
-  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 10rem;
+  gap: 5rem;
+}
+.container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.container .content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+main div img {
+  width: 5rem;
+}
+
+main div .main-link {
+  color: #4c5fd5;
+  text-decoration: none;
 }
 
 footer {
