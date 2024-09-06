@@ -103,6 +103,29 @@ main div .main-link {
 }
 
 footer {
-  height: 20rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  height: 25rem;
   background-color: #000000;
+  padding: 3rem 8rem;
+}
+footer h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+footer p {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+footer > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+footer > div > a {
+  text-decoration: none;
+  font-size: 1.15rem;
 }
