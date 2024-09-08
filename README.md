@@ -1,8 +1,8 @@
 # Frontend Challenges
 
-Este repositorio contiene una colección de ejemplos de **maquetación web**, diseñados para ilustrar diferentes técnicas y enfoques en la construcción de interfaces de usuario. Los ejemplos abordan desde conceptos básicos hasta temas más avanzados.
+## Este repositorio contiene una colección de ejemplos de **maquetación web**, diseñados para ilustrar diferentes técnicas y enfoques en la construcción de interfaces de usuario. Los ejemplos abordan desde conceptos básicos hasta temas más avanzados.
 
-![ableton example](./ableton/image.png)
+![ableton example](./ableton/ableton.jpg)
 
 ## Estructura del Repositorio
 
@@ -22,3 +22,5 @@ Este repositorio contiene una colección de ejemplos de **maquetación web**, di
 ```
 
 ### Abre el archivo index.html en tu navegador para ver el ejemplo.
+
+![abstract example](./abstract/abstract.jpg)
