@@ -1,0 +1,24 @@
+:root {
+  --aqua: #00c1b5;
+  --orange: #ff651a;
+  --yellow: #ffbe00;
+  --ocean-blue: #1d3fbb;
+  --red: #e30512;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  & h1 {
+    color: #242021;
+    font-weight: 700;
+  }
+}
